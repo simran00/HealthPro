@@ -14,3 +14,108 @@ hr {
     height: 2px;
     background-color: lightblue;
  }
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+$text-color: #a6a4a2;
+$purple: #b993d6;
+$dark-gray: #6c6763;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/login_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font: 13px/23px "Lato", Arial, sans-serif;
+  color: $text-color;
+  padding: 40px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background: white;
+  border-radius: 500px;
+  border: 8px solid rgba(245,245,245, 0.5);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background: #e9e6e2;
+  margin: 15px 100px;
+}
+
+a {
+  text-decoration: none;
+  color: $purple;
+  
+  &:hover {
+    text-decoration: underline;
+    color: lighten($purple, 5%);
+  }
+}
+
+.header {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 16px;
+  
+  
+  .login {
+    color: $purple;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+  
+  .signup {
+    color: $dark-gray;
+    text-transform: uppercase;
+    margin-left: 5px;
+  }
+}
+
+input {
+  outline: none;
+  display: block;
+  width: 70%;
+  border: 1px solid darken(white, 15%);
+  border: none;
+  border-radius: 3px;
+  background: #f7f6f5;
+  margin: 20px auto;
+  padding: 18px 15px;   
+}
+
+input[type="submit"] {
+  width: 35%;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  background: linear-gradient(#af96d4, #9b88b9);
+  cursor: pointer;
+  padding: 13px 20px;
+  
+  &:hover {
+    background: linear-gradient(lighten(#af96d4, 5%), lighten(#9b88b9, 5%));
+  }
+}
+
+.help-block {
+  margin-top: -10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+}
+
+::-moz-placeholder {
+  font-size: 13px;
+} 
