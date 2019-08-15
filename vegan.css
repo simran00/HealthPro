@@ -1,0 +1,15 @@
+body{
+    font-family: 'BenchNine', sans-serif;
+    font-size: x-large;
+    background-color: white
+    margin: 100px 100px 100px 100px;
+}
+
+p{color: green}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color:rgb(118, 206, 109);
+}
