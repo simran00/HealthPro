@@ -1,5 +1,4 @@
 body{
-    
     font-family: 'BenchNine', sans-serif;
     font-size: x-large;
     background-color: white;
@@ -14,3 +13,7 @@ hr {
     height: 2px;
     background-color: lightskyblue;
  }
+
+#topnav-left {
+float: left; 
+}
