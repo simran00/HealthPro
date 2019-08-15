@@ -5,3 +5,6 @@ body{
     margin: 100px 100px 100px 100px;
 }
 
+#topnav-left {
+float: left; 
+}
