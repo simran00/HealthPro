@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    
+    }
+    
+header {
+  background-color: rgb(253, 199, 214);
+  height:50px;
+    }
+    
+.topnav a {
+  float: left;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px 5px;
+  }
+
+
+.topnav img {
+  position: left
+}
+    
+#topnav-right {
+float: right; 
+}

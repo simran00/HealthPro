@@ -3,11 +3,13 @@ body{
     font-size: x-large;
     background-color: white
     margin: 100px 100px 100px 100px;
- }
- 
- hr {
+}
+
+p{color: orange}
+
+hr {
     margin-left: auto;
     margin-right: auto;
     height: 2px;
-    background-color: darkmagenta;
- }
+    background-color: orange
+}
