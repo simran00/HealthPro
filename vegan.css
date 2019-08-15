@@ -13,3 +13,7 @@ hr {
     height: 2px;
     background-color:rgb(118, 206, 109);
 }
+
+#topnav-left {
+float: left; 
+}
