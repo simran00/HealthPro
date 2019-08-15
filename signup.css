@@ -1,0 +1,16 @@
+body{
+    
+    font-family: 'BenchNine', sans-serif;
+    font-size: x-large;
+    background-color: lightblue;
+    margin: 100px 100px 100px 100px;
+ }
+ 
+p{color:lightblue}
+ 
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: lightblue;
+ }
