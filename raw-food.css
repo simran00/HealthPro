@@ -5,11 +5,18 @@ body{
     margin: 100px 100px 100px 100px;
 }
 
-p{color: orange}
 
 hr {
     margin-left: auto;
     margin-right: auto;
     height: 2px;
     background-color: orange
+}
+
+#topnav-left {
+float: left; 
+}
+
+li {
+  margin-left: 100px;
 }

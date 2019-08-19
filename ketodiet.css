@@ -11,3 +11,11 @@ body{
     height: 2px;
     background-color: darkmagenta;
  }
+
+#topnav-left {
+float: left; 
+}
+
+li {
+  margin-left: 100px;
+}

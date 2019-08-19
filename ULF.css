@@ -1,12 +1,11 @@
 body{
-    
     font-family: 'BenchNine', sans-serif;
     font-size: x-large;
     background-color: white;
     margin: 100px 100px 100px 100px;
  }
  
-p{color: lightskyblue}
+
  
 hr {
     margin-left: auto;
@@ -14,3 +13,7 @@ hr {
     height: 2px;
     background-color: lightskyblue;
  }
+
+#topnav-left {
+float: left; 
+}
