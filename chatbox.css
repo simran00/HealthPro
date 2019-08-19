@@ -26,7 +26,7 @@
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 600px;
+  max-width: 800px;
   padding: 10px;
   background-color: lightblue;
 }
@@ -39,7 +39,7 @@
   border: none;
   background: #f1f1f1;
   resize: none;
-  min-height: 200px;
+  min-height: 400px;
 }
 
 /* When the textarea gets focus, do something */
@@ -71,4 +71,8 @@ body{
     font-size: x-large;
     background-color: lightblue;
     margin: 100px 100px 100px 100px;
+}
+
+#topnav-left {
+float: left; 
 }
