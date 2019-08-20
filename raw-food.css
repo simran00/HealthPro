@@ -1,8 +1,8 @@
 body{
     font-family: 'BenchNine', sans-serif;
     font-size: x-large;
-    background-color: white
-    margin: 100px 100px 100px 100px;
+    background-color: white;
+    margin-left: 100px;
 }
 
 
@@ -17,6 +17,3 @@ hr {
 float: left; 
 }
 
-li {
-  margin-left: 100px;
-}

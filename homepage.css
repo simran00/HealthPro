@@ -2,14 +2,19 @@ body {
     box-sizing: border-box;
     margin: 0;
     background-color: white;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'BenchNine', sans-serif;
     font-size: larger;
     }
     
 header {
   background-color: rgb(253, 199, 214);
-  height:50px;
+  height:75px;
     }
+
+footer {
+background-color: #fdc7d6;
+height:100px;
+  }
     
 .topnav a {
   float: left;
@@ -30,12 +35,10 @@ float: right;
 }
 
    #submit {
-      background:    #ffb5d8;
-      background:    linear-gradient(#ffdcf6, #ffb1eb);
-      border:        1px solid rgb(255, 197, 252);
+      background:    rgb(253, 199, 214);
       border-radius: 1000px;
       padding:       8px 20px;
-      color:         #ffffff;
+      color:         hotpink;
       display:       inline-block;
       font:          normal normal 24px/1 "Ubuntu", sans-serif;
       text-align:    center;
@@ -153,5 +156,12 @@ img {vertical-align: middle;}
   padding-top: 50px;
   padding-right: 100px;
   padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+.padding2{
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-bottom: 10px;
   padding-left: 100px;
 }

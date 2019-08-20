@@ -28,18 +28,18 @@
 .form-container {
   max-width: 800px;
   padding: 10px;
-  background-color: lightblue;
+  background-color: rgb(253, 199, 214);
 }
 
 /* Full-width textarea */
 .form-container textarea {
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 10px;
   border: none;
-  background: #f1f1f1;
+  background: white;
   resize: none;
   min-height: 400px;
+  font-size: 20px;
 }
 
 /* When the textarea gets focus, do something */
@@ -50,26 +50,26 @@
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: rgb(253, 199, 214);
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
   margin-bottom:10px;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+  opacity: .8;
 }
 
 body{
     font-family: 'BenchNine', sans-serif;
     font-size: x-large;
-    background-color: lightblue;
+    background-color: rgb(253, 199, 214);
     margin: 100px 100px 100px 100px;
 }
 

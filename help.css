@@ -1,5 +1,12 @@
 body {
-    background-color: lightblue;
+    background-color: white;
     font-family: verdana;
-  font-size: 20px;
+    font-size: 20px;
+    margin: 100px;
+    color: lightpink;
 }
+
+header {
+  background-color: rgb(253, 199, 214);
+  height:50px;
+    }
